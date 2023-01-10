@@ -23,7 +23,7 @@ html {
   width: 500px;
 }
 
-canvas {
+.canvas--snakegame {
   background-image: url("https://assets.codepen.io/215128/snakesAndLaddersBoard.jpg");
   border: 5px solid grey;
   border-radius: 7px;
@@ -34,7 +34,7 @@ canvas {
 .playerYou .wrapper {
   color: #8a0022;
 }
-.playerYou canvas {
+.playerYou .canvas--snakegame {
   border-color: #f36;
 }
 .playerYou #diceThrow {
@@ -46,7 +46,7 @@ canvas {
 .playerAutoBot .wrapper {
   color: #3a480e;
 }
-.playerAutoBot canvas {
+.playerAutoBot .canvas--snakegame {
   border-color: #8a2;
 }
 .playerAutoBot #diceThrow {

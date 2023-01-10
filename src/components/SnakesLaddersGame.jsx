@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { gsap } from "gsap";
+import '../index.css';
   
 class SnakesLaddersGame extends Component {
   // render() {
@@ -236,15 +237,15 @@ class SnakesLaddersGame extends Component {
   render() {
       return(
           <div className="wrapper">
-          <h1>Player: <span className="playerName"></span></h1>
-          <h2 className="message">&nbsp;</h2> 
-          <div className="buttonWrapper">
-            <div id="diceThrow" className="s6"></div>
-            <button id="reset" className="hidden">Play Again</button>
-          </div>
-          <canvas></canvas>
+              <h1>Player: <span className="playerName"></span></h1>
+              <h2 className="message">&nbsp;</h2> 
+              <div className="buttonWrapper">
+                <div id="diceThrow" className="s6"></div>
+                <button id="reset" className="hidden">Play Again</button>
+              </div>
+              <canvas className="canvas--snakegame"></canvas>
         </div>
-    );
+      );
   }
 
 }
