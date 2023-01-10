@@ -241,7 +241,7 @@ class SnakesLaddersGame extends Component {
               <h2 className="message">&nbsp;</h2> 
               <div className="buttonWrapper">
                 <div id="diceThrow" className="s6"></div>
-                <button id="reset" className="hidden">Play Again</button>
+                <button id="reset" className="hidden button--snakegame">Play Again</button>
               </div>
               <canvas className="canvas--snakegame"></canvas>
         </div>

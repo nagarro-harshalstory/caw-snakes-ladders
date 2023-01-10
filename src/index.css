@@ -89,9 +89,9 @@ html {
   margin: 15px 15px;
 }
 
-button {
+.button--snakegame {
   border-radius: 7px;
-  margin-left: 100px;
+  margin-left: 50px;
   padding: 10px 30px;
 }
 
